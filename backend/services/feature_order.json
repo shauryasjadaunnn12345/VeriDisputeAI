@@ -1,0 +1,19 @@
+{
+  "feature_order": [
+    "has_tracking",
+    "has_signature_confirmation",
+    "merchant_response_time_hours",
+    "merchant_policy_compliance",
+    "card_member_dispute_history_count",
+    "evidence_completeness_pct",
+    "reason_duplicate_charge",
+    "reason_not_as_described",
+    "reason_not_received",
+    "reason_unauthorized"
+  ],
+  "target_classes": [
+    "deny",
+    "partial",
+    "refund"
+  ]
+}
